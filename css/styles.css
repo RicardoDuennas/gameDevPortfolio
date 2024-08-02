@@ -11220,6 +11220,7 @@ body {
 .carousel-container, .text-container {
   flex: 1 1 50%;
   min-height: 300px; /* Adjust this value as needed */
+  z-index: 2;
 }
 
 .carousel, .carousel-inner, .carousel-item {
@@ -11231,6 +11232,10 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.cv {
+  margin-top: 5rem;
 }
 
 @media (max-width: 991px) {

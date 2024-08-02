@@ -64,8 +64,8 @@ class Particle {
 const particles = [];
 const tempParticles = [];
 
-// Create 18 particles
-for (let i = 0; i < 18; i++) {
+// Create 41 particles
+for (let i = 0; i < 41; i++) {
     particles.push(new Particle(Math.random() * canvas.width, Math.random() * canvas.height));
 }
 
