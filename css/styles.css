@@ -11197,3 +11197,17 @@ body {
 .project-black-p{
   color: var(--bs-gray-900);
 }
+
+#projects {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#particleCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
